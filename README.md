@@ -166,3 +166,9 @@ DRAFT → SUBMITTED → APPROVED / REJECTED
 ##  Author
 
 Student project for educational purposes
+
+
+
+## VM options
+Create New Application
+"--module-path C:\Users\Админ\Desktop\javafx-sdk-26\lib --add-modules javafx.controls,javafx.fxml"
