@@ -49,7 +49,7 @@ Database (PostgreSQL)
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 src/
