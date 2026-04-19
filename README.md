@@ -100,7 +100,7 @@ DRAFT → SUBMITTED → APPROVED / REJECTED
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * Java
 * JavaFX
