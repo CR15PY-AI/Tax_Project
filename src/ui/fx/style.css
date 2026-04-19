@@ -1,0 +1,88 @@
+/* ===== ОСНОВНОЙ ФОН ===== */
+.root {
+    -fx-background-color: radial-gradient(
+            center 50% 100%, radius 100%,
+            #0b0c2a 0%,
+            #000000 100%
+    );
+    -fx-padding: 20;
+    -fx-spacing: 10;
+}
+
+/* ===== "ЗВЁЗДЫ" (имитация через точки) ===== */
+.root {
+    -fx-background-insets: 0, 0;
+}
+
+/* ===== ТЕКСТ ===== */
+.label {
+    -fx-text-fill: #cfd8ff;
+    -fx-font-size: 14px;
+}
+
+.error-label {
+    -fx-text-fill: #ff6b6b;
+    -fx-font-weight: bold;
+}
+
+/* ===== ПОЛЯ ВВОДА ===== */
+.text-field, .password-field, .combo-box {
+    -fx-background-color: rgba(20, 20, 60, 0.85);
+    -fx-text-fill: white;
+
+    -fx-border-color: #4a5bdc;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+
+    -fx-prompt-text-fill: #888;
+}
+
+/* ===== TEXT AREA ===== */
+.text-area {
+    -fx-control-inner-background: rgba(10, 10, 40, 0.9);
+    -fx-text-fill: #e0e6ff;
+
+    -fx-border-color: #4a5bdc;
+    -fx-border-radius: 6;
+}
+
+/* ===== КНОПКИ ===== */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #9f2424, #390d0d);
+    -fx-text-fill: #e0e6ff;
+
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+
+    -fx-border-color: #ff4f4f;
+    -fx-padding: 8 16;
+
+    -fx-cursor: hand;
+
+    -fx-effect: dropshadow(gaussian, rgba(131, 47, 47, 0.6), 10, 0.5, 0, 0);
+}
+
+/* Hover */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff2a2a, #4a1010);
+    -fx-effect: dropshadow(gaussian, rgba(255, 120, 120, 0.9), 15, 0.6, 0, 0);
+}
+
+/* Нажатие */
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2a0b0b, #781e1e);
+    -fx-effect: dropshadow(gaussian, rgba(255, 80, 80, 0.5), 5, 0.3, 0, 0);
+}
+
+/* ===== COMBOBOX DROPDOWN ===== */
+.combo-box-popup .list-view {
+    -fx-background-color: #0b102a;
+}
+
+.combo-box-popup .list-cell {
+    -fx-text-fill: #cfd8ff;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #1e2a78;
+}

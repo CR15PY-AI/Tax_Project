@@ -1,4 +1,8 @@
-package repository;
+package repository.interfaces;
 
-public class UserRepository {
+import model.User;
+
+public interface UserRepository {
+    void save(User user);
+    User findByEmail(String email);
 }
